@@ -18,9 +18,9 @@
 
 .plan__container h3 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 2rem;
     text-align: center;
-    font-weight: 600;
 }
 
 .plan__container-choice {
@@ -69,11 +69,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .plan__container-cards {
-    width: 27%;
+    width: 30%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -96,6 +96,7 @@
 .plan__container-cards-title h3 {
     margin-top: 1.2rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 0.9rem;
     font-weight: 500;
 }
@@ -214,5 +215,15 @@
         width: 60%;
         height: 500px;
         margin: 2rem auto;
+    }
+}
+
+@media (min-width:821px) and (max-width:1080px) {
+    .plan__container-cards {
+        width: 31%;
+    }
+
+    .plan__container-cards-items-text p {
+        font-size: 1rem;
     }
 }
