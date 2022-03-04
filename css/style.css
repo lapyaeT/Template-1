@@ -1,0 +1,52 @@
+/**
+table of contents
+01 style.css
+02 reset.css
+03 hero.css 
+04 navation.css
+05 demos.css
+06 about.css
+07 choose-us.css
+08 work.css
+09 plan.css
+10 history.css
+11 experiences.css
+12 commiunity.css
+13 service.css
+14 footer.css
+**/
+
+@import url(../css/reset.css);
+@import url(../css/hero.css);
+@import url(../css/navation.css);
+@import url(../css/demos.css);
+@import url(../css/about.css);
+@import url(../css/choose-us.css);
+@import url(../css/work.css);
+@import url(../css/plan.css);
+@import url(../css/history.css);
+@import url(../css/experiences.css);
+@import url(../css/commiunity.css);
+@import url(../css/service.css);
+@import url(../css/footer.css);
+
+
+
+html{
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+@media (min-width:0px) and (max-width:480px) {
+    heml{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    html{
+        font-size: 14px;
+    }
+}
