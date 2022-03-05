@@ -4,6 +4,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navation__container-item1 {
@@ -15,12 +16,12 @@
 .navation__container-item1 img {
     height: 50%;
     width: auto;
+    margin-top: 0.6rem;
 }
 
 .navation__container-item2 ul {
     display: flex;
     gap: 1.5rem;
-    padding: 1.5rem;
     cursor: pointer;
 }
 
@@ -34,7 +35,6 @@
 
 .navation__container-item3 button{
     outline: none;
-    margin-top: 1.5rem;
     margin-left: 1rem;
     font-size: 0.8rem;
     padding: 0.4rem 1rem;

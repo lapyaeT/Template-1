@@ -1,6 +1,6 @@
 .plan {
     width: 100%;
-    height: 720px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,13 +63,14 @@
 }
 
 .plan__container-bottom {
-    width: 84%;
+    width: 85%;
     height: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.2rem;
+    margin-bottom: 1rem;
 }
 
 .plan__container-cards {

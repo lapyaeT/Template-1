@@ -1,6 +1,6 @@
 .demos__container {
     width: 84%;
-    height: auto;
+    height: 160px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -22,18 +22,19 @@
 .demos__container-items-text h4 {
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: black;
     padding-left: 2rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.7rem;
 }
 
 .demos__container-items-text p{
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #000B33;
     opacity: 0.7;
-    line-height: 1rem;
+    line-height: 1.2rem;
     padding-left: 2rem;
 }
 
