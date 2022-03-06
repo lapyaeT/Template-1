@@ -79,3 +79,9 @@
         color: azure;
     }
 }
+
+@media (min-width:1380px) {
+    .demos__container {
+        height: 180px;
+    }
+}

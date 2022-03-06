@@ -85,7 +85,7 @@
         background: linear-gradient(to right, #9532E8,#F24A25);
     }
 
-    .bg-layer1, .bg-layer2, .bg-layer3 {
+    .bg-layer2, .bg-layer3 {
         display: none;
     }
 
@@ -125,7 +125,7 @@
     }
 }
 
-@media (min-width:821px) and (max-width:1080px) {
+ @media (min-width:821px) and (max-width:1080px) {
     .bg-layer2{
         width: 480px;
         height: auto;
@@ -146,5 +146,25 @@
 
     .hero p {
         margin-top: 2rem;
+    }
+} 
+
+@media (min-width:1380px) {
+    .home {
+        height: 900px;
+    }
+
+    .bg__layer1 {
+        height: 720px;
+    }
+
+    .bg-layer2 {
+        width: 640px;
+        top: 110px;
+    }
+
+    .bg-layer3 {
+        width: 550px;
+        top: 130px;
     }
 }
