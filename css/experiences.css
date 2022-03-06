@@ -16,7 +16,7 @@
 
 .experiences__container-title h3{
     font-size: 0.9rem;
-    color: #0669F2;
+    color: #781BFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-align: center;
@@ -26,7 +26,7 @@
 .experiences__container-title h1 {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     line-height: 2.4rem;
 }
@@ -35,19 +35,21 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .experiences__container-items {
-    width: 17rem;
-    height: 10rem;
+    width: 20rem;
+    height: 11rem;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border: solid transparent;
     border-radius: 8px;
     background-color: #ffff;
-    box-shadow: -10px 15px 25px #2B59FF14;
+    box-shadow: -10px  15px 25px #2B59FF14;
 }
 
 .experiences__container-items-image {
@@ -63,10 +65,11 @@
 
 .experiences__container-items-title {
     width: 84%;
-    height: 80%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .experiences__container-items-title-username {
@@ -80,7 +83,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin-bottom: 0.5rem;
-    padding-top: 1.6rem;
+    padding-top: 1.4rem;
 }
 
 .experiences__container-items-title-username p {
@@ -88,11 +91,13 @@
     font-family: 'Roboto', sans-serif;
     color: #000B33;
     opacity: 0.7;
+    font-weight: 300;
 }
 
 .experiences__container-items-title img{
     width: auto;
     height: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 .experiences__container-items p {
@@ -101,9 +106,10 @@
     font-family: 'Roboto', sans-serif;
     color: #000B33;
     opacity: 0.7;
-    font-weight: 500;
+    font-weight: 300;
     padding-bottom: 0.5rem;
-    line-height: 0.8rem;
+    line-height: 1rem;
+    padding-bottom: 1.4rem;
 }
 
 .image1 {
@@ -131,13 +137,22 @@
     }
 
     .experiences__container-items {
-        width: 14rem;
-        height: 10rem;
+        width: 16rem;
+        height: 12rem;
         margin: 2.5rem auto;
+    }
+
+    .experiences__container-items-title {
+        height: 50%;
+        margin-top: 2rem;
     }
 
     .experiences__container-items-title-username h3 {
         font-size: 0.9rem;
-        padding-top: 1.8rem;
+        padding-top: 2rem;
+    }
+
+    .experiences__container-items-image {
+        top: -15%;
     }
 }
