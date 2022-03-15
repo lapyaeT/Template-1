@@ -55,7 +55,22 @@
     display: none;
 }
 
+.navation__container-line .line {
+    width: 24px;
+    height: 2.5px;
+    background-color: aliceblue;
+    margin-bottom: 0.3rem;
+}
+
 @media (min-width:0) and (max-width:820px) {
+    .navation__container {
+        width: 90%;
+    }
+
+    .navation__container-item1 img {
+        height: 40%;
+    }
+
     .navation__container-item2 {
         display: none;
     }
@@ -65,12 +80,7 @@
     }
 
     .navation__container-line {
-        display: flex;
-        margin-top: 0.8rem;
-    }
-
-    .navation__container-line i {
-        font-size: 2rem;
-        color: aliceblue;
+        display: block;
+        margin-top: -0.5rem;
     }
 }

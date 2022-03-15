@@ -133,9 +133,23 @@
     background-size: cover;
 }
 
-@media (max-width:840px) {
+@media (min-width:0) and (max-width:480px) {
     .experiences{
+        overflow: hidden;
         height: auto;
+    }
+
+    .experiences__container {
+        width: 90%;
+    }
+
+    .experiences__container-title {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .experiences__container-title h1 {
+        font-weight: 500;
     }
     
     .cards {
@@ -143,9 +157,9 @@
     }
 
     .experiences__container-items {
-        width: 16rem;
+        width: 100%;
         height: 12rem;
-        margin: 2.5rem auto;
+        margin: 3rem auto;
     }
 
     .experiences__container-items-title {
@@ -171,5 +185,27 @@
 
     .experiences__container-items-image {
         top: -15%;
+    }
+}
+
+@media (min-width:1500px) {
+    .experiences {
+        height: 560px;
+    }
+
+    .experiences__container-items {
+        width: 32%;
+    }
+}
+
+@media (min-width:1700px) {
+    .experiences {
+        height: 640px;
+    }
+}
+
+@media (min-width:1900px) {
+    .experiences {
+        height: 720px;
     }
 }

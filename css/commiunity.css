@@ -45,16 +45,64 @@
 
 @media (min-width:0) and (max-width:480px){
     .cummunity {
-        height: 240px;
+        height: auto;
+        overflow: hidden;
     }
     
     .cummunity h1 {
-        font-size: 1rem;
-        line-height: 1.5rem;
+        width: 80%;
+        padding-top: 3rem;
+        line-height: 3.2rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .cummunity__label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
 
     .cummunity__label input {
-        width: 16rem;
-        height: 2rem;
+        width: 17.5rem;
+        padding: 0.8rem 2rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+        border-radius: 6px;
+    }
+
+    .cummunity__label button {
+        position: relative;
+        width: 10rem;
+        margin-top: 1rem;
+        margin: auto;
+        padding: 1rem 0;
+        font-size: 0.8rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width:1380px) {
+    .cummunity {
+        height: 340px;
+    }
+}
+
+@media (min-width:1500px) {
+    .cummunity {
+        height: 360px;
+    }
+}
+
+@media (min-width:1700px) {
+    .cummunity {
+        height: 380px;
+    }
+}
+
+@media (min-width:1900px) {
+    .cummunity {
+        height: 420px;
     }
 }

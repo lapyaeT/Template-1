@@ -113,33 +113,67 @@
 
 @media (min-width:0) and (max-width:480px) {
     .service {
-        height: 180px;
+        height: auto;
+    }
+       
+    .service__container {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .service__container-item1 {
-        display: none;
+        width: 100%;
+        margin-bottom: 4rem;
+        gap: 1rem;
+    }
+
+    .service__container-item1 p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+
+    .service__container-item1-link {
+        width: 40%;
+        margin-top: 1rem;
     }
 
     .service__container-item2 {
-        display: none;
+        width: 100%;
+        margin-bottom: 4rem;
+        gap: 1.5rem;
+    }
+
+    .service__container-item2 h3 {
+        padding-bottom: 0.8rem;
+        font-size: 1.1rem;
+    }
+
+    .service__container-item2 p {
+        font-size: 0.8rem;
     }
 
     .service__container-item4 {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
+    }
+
+    .service__container-item4 h3 {
+        padding-bottom: 0.8rem;
+        font-size: 1.1rem;
     }
 
     .service__container-item4 p {
-        padding-right: 0;
-        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.6rem;
     }
 
-    .service__container-item4-store img {
-        width: auto;
-        height: 65%;
-        margin-bottom: 1rem;
+    .service__container-item4-store {
+        width: 50%;
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -147,5 +181,29 @@
     .service__container-item4-store img {
         height: 35%;
         width: auto;
+    }
+}
+
+@media (min-width:1380px) {
+    .service {
+        height: 300px;
+    }
+}
+
+@media (min-width:1500px) {
+    .service {
+        height: 320px;
+    }
+}
+
+@media (min-width:1700px) {
+    .service {
+        height: 340px;
+    }
+}
+
+@media (min-width:1900px) {
+    .service {
+        height: 370px;
     }
 }

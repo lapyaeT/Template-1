@@ -40,33 +40,41 @@
 
 @media (min-width:0px) and (max-width:480px) {
     .demos__container {
+        overflow: hidden;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background: white;
     }
 
     .demos__container-items{
+        width: 90%;
         height: auto;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .demos__container-items img {
-        height: 5rem;
+        height: 3rem;
         width: auto;
-        margin-left: 1rem;
     }
     .demos__container-items-text h4{
-        color: aliceblue;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .demos__container-items-text p {
-        color: azure;
+        font-size: 0.8rem;
+    }
+
+    .demos__container-items:nth-child(1) {
+        margin-top: 3rem;
+    }
+
+    .demos__container-items:nth-child(3) {
+        padding-bottom: 2rem;
     }
 }
 

@@ -192,6 +192,10 @@
         height: auto;
     }
 
+    .plan__container h3 {
+        font-weight: 500;
+    }
+
     .plan__container-bottom {
         display: block;
     }
@@ -226,5 +230,23 @@
 
     .plan__container-cards-items-text p {
         font-size: 1rem;
+    }
+}
+
+@media (min-width:1500px) {
+    .plan {
+        height: 960px;
+    }
+}
+
+@media (min-width:1700px) {
+    .plan {
+        height: 1080px;
+    }
+}
+
+@media (min-width:1900px) {
+    .plan {
+        height: 1160px;
     }
 }
